@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Core LangGraph & Chainlit\
+langgraph>=0.0.39\
+chainlit>=1.0.300\
+langchain>=0.2.0\
+langchain-core>=0.2.0\
+\
+# LLM Support\
+openai>=1.30.1  # or google-generativeai if using Gemini\
+tiktoken>=0.5.2\
+\
+# Splunk SDK\
+splunk-sdk>=1.6.16\
+\
+# Playwright (for screenshot automation)\
+playwright>=1.44.0\
+\
+# HTTP Client\
+requests>=2.31.0\
+\
+# Async support\
+aiohttp>=3.9.5\
+httpx>=0.27.0\
+\
+# Logging\
+loguru>=0.7.2\
+\
+# Optional: .env config and retry logic\
+python-dotenv>=1.0.1\
+tenacity>=8.3.0\
+\
+# Python version compatibility\
+# Requires Python >=3.9\
+}
